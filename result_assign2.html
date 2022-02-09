@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Check</title>
+</head>
+<body>
+    <h1>Hello</h1>
+   <script>
+       var math = 78;
+       var eng = 98;
+       var hindi = 84;
+       var sst = 75;
+       var sci = 89;
+
+       var per;
+       per = math + eng + hindi + sst + sci;
+       per = (per/500) * 100;
+   
+       console.log(per);
+
+       if(per >= 75 && per <=100){
+           console.log("A grade");
+       }
+       else if(per >= 60 && per <=74){
+           console.log("B Grade")
+       }
+       else if(per >=40 && per <=59){
+           console.log("C Grade");
+       }
+
+       else {
+           console.log("Fail");
+       }
+   </script>
+</body>
+</html>
